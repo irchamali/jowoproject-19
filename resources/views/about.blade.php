@@ -8,8 +8,8 @@
 </head>
 <body>
     <h1>About</h1>
-    <h3>Hi, I'm <?= $name; ?></h3>
-    <p><?= $email; ?></p>
-    <img src="img/<?= $photo; ?>" alt="<?= $name; ?>" width="200">
+    <h3>Hi, I'm {{ $name }}</h3>
+    <p>{{ $email }}</p>
+    <img src="img/{{ $photo }}" alt="{{ $name }}" width="200">
 </body>
 </html>
